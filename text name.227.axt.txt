@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+char str[30];
+int 1;
+printf("enter the string:");
+gets(str);
+for(i=0;str[i]!='\0';i++)
+{
+if((i%2)==0)
+str[i]=tolower(str[i]);
+else
+str[i]=touppler(str[i]);
+}
+printf("\n%s",str);
+return 0;
+}
